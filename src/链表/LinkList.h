@@ -5,8 +5,8 @@
  *      Author: jingdongqi
  */
 
-#ifndef LINKLIST_H_
-#define LINKLIST_H_
+#ifndef 链表_LINKLIST_H_
+#define 链表_LINKLIST_H_
 typedef int DataType;
 typedef struct node {
 	DataType data;
@@ -16,7 +16,7 @@ typedef struct node {
 typedef ListNode *LinkList;
 ListNode *p; //定义一个指向节点的指针变量
 LinkList head; //定义头指针
-
+/**************************链表的基本操作**********************/
 /**
  * 头插法创建单链表
  */
@@ -54,18 +54,5 @@ void InsertList(LinkList head, int i, DataType x);
 
 void DeleteList(LinkList head, int i);
 
-/**
- * 按序号奇偶分解单链表，b在调用该算法前是一个带头结点的空链表
- */
-void split(LinkList a, LinkList b);
 
-/**
- * 合并两个递增的链表
- */
-void mergeList(LinkList a, LinkList b);
-
-
-
-
-
-#endif /* LINKLIST_H_ */
+#endif /* 链表_LINKLIST_H_ */

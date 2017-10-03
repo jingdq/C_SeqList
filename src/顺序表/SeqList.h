@@ -5,8 +5,8 @@
  *      Author: jingdongqi
  */
 
-#ifndef SEQLIST_H_
-#define SEQLIST_H_
+#ifndef 顺序表_SEQLIST_H_
+#define 顺序表_SEQLIST_H_
 
 #define ListSize 100
 typedef int DataType;
@@ -15,6 +15,7 @@ typedef struct {
 	int length;
 } SeqList;
 
+/*****************顺序表基本操作***********************/
 /**
  * 顺序表第i个位置之前插入元素x
  */
@@ -25,20 +26,6 @@ void InsertList(SeqList *L, int i, DataType x);
  */
 DataType DeleteList(SeqList *L, int i);
 
-/**********************************应用***************************/
-/**
- * 合并两个线性表
- */
-void _union(SeqList *LA, SeqList *LB);
 
-/**
- * 删除线性表中的重复元素
- */
-void purge(SeqList *LA);
 
-/**
- * 逆置顺序表
- */
-SeqList Converts(SeqList *L);
-
-#endif /* SEQLIST_H_ */
+#endif /* 顺序表_SEQLIST_H_ */

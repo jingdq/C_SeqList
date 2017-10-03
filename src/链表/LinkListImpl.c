@@ -5,9 +5,7 @@
  *      Author: jingdongqi
  */
 #include <stdio.h>
-#include "LinkList.h"
 
-int main(int argc, char **argv) {
-	return 0;
-}
+#include "链表/LinkList.h"
+
 
