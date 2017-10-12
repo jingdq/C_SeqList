@@ -4,7 +4,7 @@
  *  Created on: 2017年10月3日
  *      Author: jingdongqi
  */
-#include "顺序表/SeqList.h"
+#include "SeqList.h"
 #include <stdio.h>
 /**
  * 合并两个线性表
